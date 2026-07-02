@@ -1,0 +1,79 @@
+https://www.youtube.com/watch?v=kFe-RRaOy48&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=3
+
+loop
+https://www.pluralsight.com/guides/how-to-implement-a-component-%22loop%22-with-react
+
+declaration should be done between function and return.
+
+one type of data declaration is given below
+
+const data =[
+    {
+      'name': 'usman'
+    },
+    {
+      'name': 'sohail'
+    }
+  ]
+
+
+
+<>
+              {items.map((item,i)=>{
+                  return <LearningLounge key={i} LearningLoungeTitle="Main Learning Lounge Title" loungeQuest={item.i} />
+              })}
+            </>
+
+
+
+to call it using loop
+
+<>
+              
+ {items.map((item,i)=>{
+      return <LearningLounge key={i} LearningLoungeTitle="Main Learning Lounge Title" loungeQuest={data.name} />
+   })}
+   </>
+
+
+
+div show hide
+import { useState } from 'react';
+const [showHide, setShwoHide] = useState(false);
+
+<button onClick={()=> setShwoHide(!showHide)}>Click to show</button>
+   {showHide && <div>Hello this is the content div</div>}
+
+if condition
+const [numVal, setNumval] = useState(10);
+{numVal > 5 ? "Greater" : "Smaller"}
+
+{numVal<5 ? "Lesser" : numVal ==5 ? "Equal": "Greater"} // multiple if conditions
+
+
+Carousel for library book
+https://react-slick.neostack.com/docs/get-started/
+
+https://react-slick.neostack.com/docs/example/responsive
+
+https://v5.reactrouter.com/web/guides/quick-start
+
+tailwind intellisense
+
+add in CSS file (This will add only those styles used in html files i.e. will not include all the tailwing CSS)
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
+
+
+TAilwind sample template for practive
+http://preview.themeforest.net/item/monst-nextjs-tailwind-css-landing-page/full_screen_preview/35665353?_ga=2.187986984.1492756570.1677049463-478898767.1644381222
+https://valkivid.dan-fisher.dev/_yt1-index.html
+
+https://sandbox.elemisthemes.com/demo27.html
+
+
+Form Validation using React hook
+https://react-hook-form.com/get-started#Applyvalidation
+
+Wasim Akram Close call. I swam with a shark

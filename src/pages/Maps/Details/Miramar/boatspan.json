@@ -1,0 +1,179 @@
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "markers": [
+            {
+                "lat": -79.14653825419713,
+                "lng": -66.44531250000001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -77.63654163009745,
+                "lng": -61.47949218750001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -77.72093986107879,
+                "lng": -69.87304687500001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -77.89725517594933,
+                "lng": -44.20898437500001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -79.64777390571349,
+                "lng": -45.08789062500001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -76.63922560965885,
+                "lng": -21.796875000000004,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -76.89074547194512,
+                "lng": -13.491210937500002,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -79.4162398121411,
+                "lng": 18.500976562500004,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -79.02171239525757,
+                "lng": 41.52832031250001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -78.43782254569875,
+                "lng": 64.68750000000001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -71.11677038645317,
+                "lng": 96.24023437500001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -68.97416358340674,
+                "lng": 101.55761718750001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -65.98227002980873,
+                "lng": 105.46875000000001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -56.02294807962745,
+                "lng": 124.23339843750001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -52.32191088594772,
+                "lng": 130.69335937500003,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -47.1897124644842,
+                "lng": 135.79101562500003,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -40.91351257612758,
+                "lng": 113.20312500000001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -34.27083595165,
+                "lng": 132.62695312500003,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -22.87744046489713,
+                "lng": 140.84472656250003,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": -21.3303150734318,
+                "lng": 122.95898437500001,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            },
+            {
+                "lat": 27.21555620902969,
+                "lng": 154.29199218750003,
+                "icon": "fas fa-ship",
+                "iconColor": "white",
+                "markerColor": "cyan",
+                "shape": "circle"
+            }
+        ],
+        "circles": [],
+        "rectangles": [],
+        "polylines": []
+    }
+}

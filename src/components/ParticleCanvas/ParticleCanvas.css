@@ -1,0 +1,6 @@
+/* ParticleCanvas wrapper */
+.particle-canvas-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}

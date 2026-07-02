@@ -1,0 +1,10 @@
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "markers": [],
+        "circles": [],
+        "rectangles": [],
+        "polylines": []
+    }
+}

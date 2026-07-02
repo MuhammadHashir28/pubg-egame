@@ -1,0 +1,83 @@
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "markers": [
+            {
+                "lat": -79.695048377189,
+                "lng": -142.33886718750003,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 50.819818262156545,
+                "lng": -129.02343750000003,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 65.5129625532949,
+                "lng": -66.35742187500001,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 67.47492238478702,
+                "lng": -69.96093750000001,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": -5.834616165610046,
+                "lng": -17.622070312500004,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 49.1242192485914,
+                "lng": 11.074218750000002,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 81.92318632602199,
+                "lng": 138.20800781250003,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 82.33238201413792,
+                "lng": 129.72656250000003,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            },
+            {
+                "lat": 82.98340359715496,
+                "lng": 117.5537109375,
+                "icon": "fas fa-star",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "circle"
+            }
+        ],
+        "circles": [],
+        "rectangles": [],
+        "polylines": []
+    }
+}

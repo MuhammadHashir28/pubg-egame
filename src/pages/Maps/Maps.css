@@ -1,0 +1,540 @@
+/* =============================================
+   Maps Page — Ultra Modern Dark Theme
+   ============================================= */
+
+/* --- Map Menu / Toolbar Sidebar --- */
+.map-meu {
+  position: relative;
+  background: #0a0a1a;
+  min-height: 100vh;
+}
+
+.map-side-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 260px;
+  background: #0a0a14;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid rgba(255, 193, 7, 0.12);
+  z-index: 1000;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 80px 16px 24px;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 193, 7, 0.3) transparent;
+}
+
+.map-side-bar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.map-side-bar::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+}
+
+.map-side-bar:not(.active) {
+  transform: translateX(-260px);
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Sidebar Toggle Arrow */
+.map-side-arrow {
+  position: fixed;
+  left: 260px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 48px;
+  background: rgba(8, 8, 30, 0.95);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 193, 7, 0.12);
+  border-left: none;
+  border-radius: 0 12px 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1001;
+  transition: left 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.3s ease,
+              color 0.3s ease;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.map-side-arrow:hover {
+  background: rgba(255, 193, 7, 0.08);
+  color: #ffc107;
+}
+
+.map-side-bar:not(.active) + .map-side-arrow,
+.map-side-bar:not(.active) ~ .map-side-arrow {
+  left: 0;
+}
+
+.map-side-bar:not(.active) ~ .map-side-arrow i {
+  transform: rotate(180deg);
+}
+
+.map-side-arrow i {
+  transition: transform 0.35s ease;
+}
+
+/* Sidebar Labels */
+.map-side-bar .text-xs {
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  line-height: 1 !important;
+  margin: 20px 0 8px !important;
+  display: block !important;
+}
+
+.map-side-bar label.text-xs {
+  margin-top: 0 !important;
+}
+
+/* Select Box */
+.selectbox-class {
+  background: #12121f !important;
+  border: 1px solid rgba(255, 193, 7, 0.2) !important;
+  border-radius: 10px !important;
+  color: #fff !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 13px !important;
+  padding: 10px 14px !important;
+  width: 100% !important;
+  outline: none !important;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%233dd9c4' d='M6 8L1 3h10z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 12px center !important;
+  padding-right: 36px !important;
+}
+
+.selectbox-class:focus {
+  border-color: #ffc107 !important;
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.08) !important;
+}
+
+.selectbox-class option {
+  background: #0a0a1a;
+  color: #fff;
+}
+
+/* Tools Row */
+.map-side-bar .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Tool Icon Box */
+.map-icon-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 193, 7, 0.1);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-family: 'Oxanium', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 60px;
+  flex: 1;
+  text-align: center;
+  user-select: none;
+}
+
+.map-icon-box img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.map-icon-box:hover {
+  background: rgba(255, 193, 7, 0.06);
+  border-color: rgba(255, 193, 7, 0.25);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.map-icon-box:hover img {
+  opacity: 0.8;
+}
+
+.map-icon-box.active {
+  background: rgba(255, 193, 7, 0.1);
+  border-color: rgba(255, 193, 7, 0.4);
+  color: #ffc107;
+  box-shadow: 0 0 16px rgba(255, 193, 7, 0.08);
+}
+
+.map-icon-box.active img {
+  opacity: 1;
+  filter: none;
+}
+
+/* Divider */
+.sharehr {
+  border: none;
+  border-top: 1px solid rgba(255, 193, 7, 0.1);
+  margin: 20px 0;
+}
+
+/* Color Picker Override */
+.map-side-bar .sketch-picker {
+  box-shadow: none !important;
+  padding: 0 !important;
+  width: 100% !important;
+  background-color: transparent !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 193, 7, 0.12) !important;
+  overflow: hidden;
+}
+
+.sketch-picker > div:first-child {
+  display: none !important;
+}
+
+.sketch-picker > div:nth-child(2),
+.sketch-picker > div:nth-child(3) {
+  display: none !important;
+}
+
+/* Hide hex + label inputs inside sketch picker */
+.sketch-picker input {
+  display: none !important;
+}
+
+.sketch-picker .flexbox-fix {
+  padding: 2px 0 0 9px !important;
+  border:0px !important;
+}
+
+/* Size Slider */
+.size-slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.size-slider input[type="range"] {
+  flex: 1;
+  height: 4px;
+  background: rgba(255, 193, 7, 0.15);
+  border-radius: 4px;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.size-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #ffc107;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(255, 193, 7, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.size-slider input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.size-slider input[type="text"].textbox {
+  width: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 193, 7, 0.2);
+  border-radius: 6px;
+  color: #ffc107;
+  font-family: 'Oxanium', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px 6px;
+  outline: none;
+}
+
+/* --- Map Canvas --- */
+#mapCanvas {
+  width: 100%;
+  height: calc(100vh - 0px);
+  background: #0e0e1c;
+  position: relative;
+}
+
+#mapCanvas .leaflet-container {
+  background: #0e0e1c !important;
+}
+
+/* --- Leaflet Popup Override --- */
+.leaflet-popup-content-wrapper {
+  background: #0a0a14 !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 193, 7, 0.15) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 193, 7, 0.06) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 13px !important;
+  padding: 12px 16px !important;
+  margin: 0 !important;
+  line-height: 1.5 !important;
+}
+
+.leaflet-popup-tip-container {
+  display: none !important;
+}
+
+.leaflet-popup-close-button {
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 18px !important;
+  top: 6px !important;
+  right: 8px !important;
+  transition: color 0.2s ease;
+}
+
+.leaflet-popup-close-button:hover {
+  color: #ffc107 !important;
+}
+
+/* Editor Popup in Leaflet */
+.editor-popup .leaflet-popup-content-wrapper {
+  background: #0a0a14 !important;
+  width: 320px !important;
+  padding: 12px !important;
+}
+
+/* --- Grid Overlay --- */
+#mapCanvas.show-grid .leaflet-container::before {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 149px,
+    rgba(255, 193, 7, 0.06) 149px,
+    rgba(255, 193, 7, 0.06) 150px
+  ) !important;
+  z-index: 1999 !important;
+}
+
+#mapCanvas.show-grid .leaflet-container::after {
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 149px,
+    rgba(255, 193, 7, 0.06) 149px,
+    rgba(255, 193, 7, 0.06) 150px
+  ) !important;
+  z-index: 1999 !important;
+}
+
+/* --- Quill Editor in Popup --- */
+.editor-popup .ql-toolbar.ql-snow {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border: none !important;
+  border-radius: 8px 8px 0 0 !important;
+  padding: 6px 10px !important;
+}
+
+.editor-popup .ql-container.ql-snow {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: none !important;
+  border-radius: 0 0 8px 8px !important;
+  font-family: 'Oxanium', sans-serif !important;
+  color: #fff !important;
+}
+
+.editor-popup .ql-editor {
+  min-height: 80px !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-size: 13px !important;
+  padding: 10px 12px !important;
+}
+
+.editor-popup .ql-editor.ql-blank::before {
+  color: rgba(255, 255, 255, 0.3) !important;
+  font-style: normal !important;
+}
+
+.editor-popup button {
+  background: #ffc107 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: #060610 !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 6px 16px !important;
+  margin-top: 8px !important;
+  cursor: pointer !important;
+  transition: opacity 0.3s ease, background 0.3s ease !important;
+  width: 100% !important;
+}
+
+.editor-popup button:hover {
+  background: #F2B233   /* PUBG Gold (Recommended) */ !important;
+}
+
+/* --- Text Labels on Map --- */
+.custom-text-icon .text-label {
+  background: rgba(10, 10, 20, 0.92) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 193, 7, 0.25) !important;
+  border-radius: 6px !important;
+  color: #fff !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 4px 10px !important;
+  white-space: nowrap !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* --- Cursor States --- */
+.crosshair-cursor,
+.crosshair-cursor .leaflet-interactive {
+  cursor: crosshair !important;
+}
+
+.grab-cursor,
+.grab-cursor .leaflet-interactive {
+  cursor: grab !important;
+}
+
+.text-cursor {
+  cursor: text !important;
+}
+
+/* --- Leaflet Controls --- */
+.leaflet-control-zoom {
+  border: none !important;
+  border-radius: 12px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+}
+
+.leaflet-control-zoom a {
+  background: #0a0a14 !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.7) !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(255, 193, 7, 0.1) !important;
+  width: 36px !important;
+  height: 36px !important;
+  line-height: 36px !important;
+  font-size: 18px !important;
+  transition: all 0.3s ease !important;
+}
+
+.leaflet-control-zoom a:last-child {
+  border-bottom: none !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: rgba(255, 193, 7, 0.08) !important;
+  color: #ffc107 !important;
+}
+
+/* Fullscreen control */
+.leaflet-control-fullscreen a {
+  background: #0a0a14 !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 193, 7, 0.12) !important;
+  border-radius: 12px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  width: 36px !important;
+  height: 36px !important;
+  transition: all 0.3s ease !important;
+}
+
+.leaflet-control-fullscreen a:hover {
+  background: rgba(255, 193, 7, 0.08) !important;
+  color: #ffc107 !important;
+}
+
+/* --- Map layout adjustment --- */
+.map-side-bar + section {
+  margin-left: 260px;
+  transition: margin-left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.map-side-bar:not(.active) + section {
+  margin-left: 0;
+}
+
+/* --- Notification --- */
+.notification {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0a0a14 !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 193, 7, 0.25) !important;
+  border-radius: 12px !important;
+  color: #ffc107 !important;
+  font-family: 'Oxanium', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 12px 24px !important;
+  z-index: 9999;
+  box-shadow: 0 8px 24px rgba(255, 193, 7, 0.1) !important;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .map-side-bar {
+    width: 220px;
+  }
+
+  .map-side-bar:not(.active) {
+    transform: translateX(-220px);
+  }
+
+  .map-side-arrow {
+    left: 220px;
+  }
+
+  .map-side-bar:not(.active) ~ .map-side-arrow {
+    left: 0;
+  }
+
+  .map-side-bar + section {
+    margin-left: 0;
+  }
+}

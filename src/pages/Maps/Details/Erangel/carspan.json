@@ -1,0 +1,1427 @@
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "markers": [
+            {
+                "lat": 75.308884484761,
+                "lng": -136.0986328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 75.464105104918,
+                "lng": -126.650390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 76.820792525437,
+                "lng": -132.01171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 76.649376786618,
+                "lng": -114.78515625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 73.812573767085,
+                "lng": -111.796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 74.104015016041,
+                "lng": -104.5458984375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.728979462088,
+                "lng": -96.240234375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 68.187889501667,
+                "lng": -104.326171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 66.160510560188,
+                "lng": -114.609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 60.716197793577,
+                "lng": -82.177734375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 51.069016659604,
+                "lng": -72.9931640625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 51.59072264312,
+                "lng": -61.435546875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 56.752722872057,
+                "lng": -51.8994140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 57.89149735271,
+                "lng": -33.7060546875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 58.836490093921,
+                "lng": -24.0380859375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 63.607216680331,
+                "lng": -28.740234375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 61.375673315727,
+                "lng": -10.8984375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 60.866312474623,
+                "lng": 0.1318359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 63.48976680531,
+                "lng": 6.4599609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.199994075347,
+                "lng": -6.50390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.743477791382,
+                "lng": 8.5693359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 69.975492536162,
+                "lng": 35.244140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 74.752746189259,
+                "lng": -7.7783203125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 76.900708925887,
+                "lng": -5.8447265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 77.943237964605,
+                "lng": -16.9189453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 78.819035537117,
+                "lng": -3.5595703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 78.242436076121,
+                "lng": -41.4404296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 76.880774572502,
+                "lng": -57.216796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 75.264238752242,
+                "lng": -47.109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 74.775843006492,
+                "lng": -33.4423828125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 73.073843512772,
+                "lng": -25.13671875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 60.413852350465,
+                "lng": 17.314453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 52.776185688962,
+                "lng": 16.1279296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 48.89361536148,
+                "lng": 16.787109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.959697166864,
+                "lng": 68.642578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 80.297927149974,
+                "lng": 26.6748046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 78.025573632841,
+                "lng": 33.9697265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 79.781164248799,
+                "lng": 55.5908203125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 82.858847396809,
+                "lng": 63.1494140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 75.683068461795,
+                "lng": 71.4111328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 81.348075776406,
+                "lng": 110.4345703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 80.503112101851,
+                "lng": 114.78515625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 78.742082996034,
+                "lng": 116.4111328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.902268267577,
+                "lng": 110.6982421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 70.728979462088,
+                "lng": 97.1630859375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 61.918271023356,
+                "lng": 95.09765625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 58.74540696858,
+                "lng": 31.201171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 50.541362965222,
+                "lng": 41.1328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 45.981695185122,
+                "lng": 33.8818359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 59.333189426592,
+                "lng": 42.4072265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 57.98480801924,
+                "lng": 67.8076171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 63.094758462241,
+                "lng": 66.3134765625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 55.429013452407,
+                "lng": 75.4541015625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 58.47072082412,
+                "lng": 50.361328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 51.124212757827,
+                "lng": 99.052734375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 47.665387356327,
+                "lng": 67.939453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 37.996162679728,
+                "lng": 124.716796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 34.379712580462,
+                "lng": 122.7392578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 32.583849325657,
+                "lng": 134.5166015625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 22.836945920944,
+                "lng": 121.4208984375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 24.527134822598,
+                "lng": 108.28125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 30.562260950499,
+                "lng": 103.0078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 20.550508894196,
+                "lng": 87.275390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 4.6968790268714,
+                "lng": 118.916015625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -4.3902289264634,
+                "lng": 132.626953125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -16.130262012035,
+                "lng": 129.7265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -29.91685223307,
+                "lng": 125.0244140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -40.4469470596,
+                "lng": 113.5986328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -21.412162229725,
+                "lng": 113.02734375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -19.352610894379,
+                "lng": 95.7568359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -32.731840896866,
+                "lng": 92.900390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -30.297017883372,
+                "lng": 85.7373046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": -24.367113562651,
+                "lng": 76.11328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -46.19504210866,
+                "lng": 63.6328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -40.747256962804,
+                "lng": 63.10546875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -34.307143856288,
+                "lng": 55.9423828125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -27.916766641249,
+                "lng": 60.64453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -30.562260950499,
+                "lng": 48.6474609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -6.9264268470596,
+                "lng": 68.7744140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 5.4847680181413,
+                "lng": 62.9296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 13.453737213419,
+                "lng": 54.755859375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 22.228090416784,
+                "lng": 60.908203125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 32.324275588877,
+                "lng": 59.4580078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 13.667338259655,
+                "lng": 42.71484375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 25.204941153569,
+                "lng": 38.9794921875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 37.649034021579,
+                "lng": 24.345703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 57.515822865539,
+                "lng": -78.92578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 50.176898122001,
+                "lng": -41.1767578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 49.38237278701,
+                "lng": -72.1142578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 45.182036837016,
+                "lng": -63.896484375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 45.089035564831,
+                "lng": -21.533203125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 42.875964102383,
+                "lng": -0.6591796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 43.293200313853,
+                "lng": 15.1171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 42.391008609205,
+                "lng": -15.380859375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 44.245199015221,
+                "lng": -2.373046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 32.546813173515,
+                "lng": 32.6513671875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 41.14556973101,
+                "lng": 6.6796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 34.669358545245,
+                "lng": 8.3056640625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 28.226970038918,
+                "lng": 5.2294921875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 22.228090416784,
+                "lng": -8.7890625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 10.444597722835,
+                "lng": -14.7216796875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 11.910353555774,
+                "lng": -38.5400390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 4.3464112753332,
+                "lng": -30.9814453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 0.79099049815401,
+                "lng": -24.169921875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": -2.1088986592431,
+                "lng": -18.3251953125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -11.523087506868,
+                "lng": -14.23828125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -22.553147478403,
+                "lng": -23.5107421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -29.726222319396,
+                "lng": -23.3349609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -17.350638376049,
+                "lng": -42.1875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -26.667095801105,
+                "lng": -13.623046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -25.641526373066,
+                "lng": 4.74609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -25.522614647623,
+                "lng": 27.7294921875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -26.980828590472,
+                "lng": 35.5078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -19.228176737766,
+                "lng": 31.2451171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -1.6257583604128,
+                "lng": 25.7958984375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -10.271681232947,
+                "lng": 37.705078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -11.738302371437,
+                "lng": 48.1201171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -48.224672649565,
+                "lng": -34.1455078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -48.574789910929,
+                "lng": -45.52734375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -52.80276141542,
+                "lng": -63.9404296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -54.265224078606,
+                "lng": -88.1103515625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -46.64943616335,
+                "lng": -91.23046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -64.396937781328,
+                "lng": -102.3486328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -67.18699968023,
+                "lng": -114.1259765625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -61.185624681423,
+                "lng": -118.8720703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -55.751849391735,
+                "lng": -106.5234375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -49.724479188713,
+                "lng": -134.4287109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -38.822590976177,
+                "lng": -125.9033203125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -31.052933985705,
+                "lng": -137.724609375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -18.562947442888,
+                "lng": -136.0107421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -21.657428197371,
+                "lng": -113.5546875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -16.383391123608,
+                "lng": -82.529296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 1.7136116598836,
+                "lng": -136.4501953125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -2.284550660237,
+                "lng": -123.662109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 8.4941045375519,
+                "lng": -111.0498046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 1.8453839885732,
+                "lng": -108.896484375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 1.0546279422759,
+                "lng": -102.3486328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 8.1462428250344,
+                "lng": -88.3740234375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 7.928674801364,
+                "lng": -81.4306640625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 6.7955350257195,
+                "lng": -60.732421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 6.9264268470596,
+                "lng": -46.0986328125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 21.861498734373,
+                "lng": -79.8046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 25.601902261116,
+                "lng": -103.095703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 15.876809064147,
+                "lng": -133.4619140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 29.382175075145,
+                "lng": -105.732421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": 35.746512259919,
+                "lng": -120.234375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 45.460130637921,
+                "lng": -123.22265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 43.548548110913,
+                "lng": -113.994140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 46.134170046243,
+                "lng": -97.822265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": 46.164614496897,
+                "lng": 77.080078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -61.396718873104,
+                "lng": -16.787109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -64.529548199422,
+                "lng": -12.2607421875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -69.488372399323,
+                "lng": -14.4580078125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -76.142958464798,
+                "lng": -21.4892578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -78.508075262589,
+                "lng": 17.1826171875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -76.850817148529,
+                "lng": 45.087890625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -75.397779424116,
+                "lng": 76.1572265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -68.736383452873,
+                "lng": 88.06640625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -67.084550485075,
+                "lng": 86.8359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": -65.403444788308,
+                "lng": 86.2646484375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": -63.332412791936,
+                "lng": 73.8720703125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "yellow",
+                "shape": "star"
+            },
+            {
+                "lat": -61.333539673291,
+                "lng": 78.9697265625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -59.445075099047,
+                "lng": 63.7646484375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -65.874724670985,
+                "lng": 67.4560546875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -62.59334083012,
+                "lng": 51.943359375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -65.585720023295,
+                "lng": 52.8662109375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -67.842416473279,
+                "lng": 47.3291015625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -71.045528819336,
+                "lng": 38.056640625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -75.197021295786,
+                "lng": 38.6279296875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -75.264238752242,
+                "lng": 17.314453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -75.24186616027,
+                "lng": -4.7900390625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -70.18510275499,
+                "lng": 1.3623046875,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -67.221052967354,
+                "lng": 12.5244140625,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -67.809244506,
+                "lng": 24.0380859375,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -57.350237477397,
+                "lng": 2.8564453125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -57.016814017391,
+                "lng": 18.017578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            },
+            {
+                "lat": -59.556591885682,
+                "lng": 24.2578125,
+                "icon": "fas fa-car",
+                "iconColor": "white",
+                "markerColor": "violet",
+                "shape": "circle"
+            }
+        ],
+        "circles": [],
+        "rectangles": [],
+        "polylines": []
+    }
+}

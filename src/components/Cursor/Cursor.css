@@ -1,0 +1,59 @@
+body
+{
+  overflow-x: hidden;
+}
+
+* {
+  cursor: none;
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+  z-index: 999999;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ffffff; /* Inner dot color: white */
+}
+
+.cursor-dot-outline {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 193, 7, 0.5); /* Outer dot color: semi-transparent #ffc107 */
+}
+
+.links-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 40px;
+}
+
+
+.cursor-dot {
+  transition: opacity 0.3s ease;
+}
+
+.cursor-dot-outline {
+  transition: opacity 0.3s ease;
+}
+
+
+.cursor-dot {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.cursor-dot-outline {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
